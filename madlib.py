@@ -28,7 +28,7 @@ number = input('Enter a number: ')
 print('Together, they embarked on a journey filled with _ and _!')
 plural_noun = input('Enter a plural noun: ')
 emotion = input('Enter an emotion: ')
-print('Once upon a time, in a', adjective1, 'kingdom, there lived a', animal1, 'named', name + '. ' 'This', animal1, 'loved to', verb1, 'every day. One day, it discovered a', adjective2, noun, 'that changed its life forever. It decided to', verb2, 'it to the', place, 'and share its adventure with', number, 'friends. Together, they emarked on a journey filled with', plural_noun, 'and', emotion + '!')
+print(f'Once upon a time in a {adjective1} kingdom, there lived a {animal1} named {name}. This {animal1} loved to {verb1} every day. One day, it discovered a {adjective2} {noun} that changed its life forever. It decided to {verb2} it to the {place} and share its adventure with {number} friends. Together, they embarked on a journey filled with {plural_noun} and {emotion}!')
 
 exit()
 
